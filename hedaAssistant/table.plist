@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>玩玩玩</string>
+		<key>start</key>
+		<integer>1</integer>
+		<key>end</key>
+		<integer>4</integer>
+		<key>day</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>玩玩玩</string>
+		<key>start</key>
+		<integer>1</integer>
+		<key>end</key>
+		<integer>4</integer>
+		<key>day</key>
+		<integer>7</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>睡睡睡</string>
+		<key>start</key>
+		<integer>4</integer>
+		<key>end</key>
+		<integer>6</integer>
+		<key>day</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>吃吃吃</string>
+		<key>start</key>
+		<integer>5</integer>
+		<key>end</key>
+		<integer>7</integer>
+		<key>day</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>嘿嘿嘿</string>
+		<key>start</key>
+		<integer>1</integer>
+		<key>end</key>
+		<integer>3</integer>
+		<key>day</key>
+		<integer>1</integer>
+	</dict>
+</array>
+</plist>

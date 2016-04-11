@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewsDetailController">
+            <connections>
+                <outlet property="picV" destination="0c6-Nj-0dp" id="VKa-he-tWp"/>
+                <outlet property="scrollView" destination="ReK-Qd-il0" id="61l-K1-o69"/>
+                <outlet property="textV" destination="Fr1-2Z-dxU" id="zw6-eg-Fdj"/>
+                <outlet property="timeV" destination="dFu-5O-5mO" id="Ca4-NB-f0g"/>
+                <outlet property="titleV" destination="VwC-9p-Vo5" id="xaO-Fv-2gf"/>
+                <outlet property="view" destination="COZ-hE-Gir" id="rIa-rO-1W2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="COZ-hE-Gir">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ReK-Qd-il0">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="测试标题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VwC-9p-Vo5">
+                            <rect key="frame" x="8" y="45" width="304" height="44"/>
+                            <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="QFi-gf-C21"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="time" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFu-5O-5mO">
+                            <rect key="frame" x="8" y="97" width="304" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0c6-Nj-0dp">
+                            <rect key="frame" x="8" y="147" width="304" height="240"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="240" id="RzW-ZS-fHt"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fr1-2Z-dxU">
+                            <rect key="frame" x="8" y="395" width="304" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="0c6-Nj-0dp" secondAttribute="trailing" constant="8" id="CKb-NH-o0V"/>
+                        <constraint firstItem="VwC-9p-Vo5" firstAttribute="centerX" secondItem="ReK-Qd-il0" secondAttribute="centerX" id="LZc-cc-qxp"/>
+                        <constraint firstItem="VwC-9p-Vo5" firstAttribute="trailing" secondItem="dFu-5O-5mO" secondAttribute="trailing" id="NTP-a7-rA4"/>
+                        <constraint firstAttribute="trailing" secondItem="Fr1-2Z-dxU" secondAttribute="trailing" constant="8" id="OTD-9q-vnt"/>
+                        <constraint firstAttribute="bottom" secondItem="VwC-9p-Vo5" secondAttribute="bottom" constant="479" id="Qhz-jJ-vJZ"/>
+                        <constraint firstItem="dFu-5O-5mO" firstAttribute="leading" secondItem="ReK-Qd-il0" secondAttribute="leading" constant="8" id="R3P-g1-GNh"/>
+                        <constraint firstItem="Fr1-2Z-dxU" firstAttribute="top" secondItem="0c6-Nj-0dp" secondAttribute="bottom" constant="8" symbolic="YES" id="Ubi-6s-abt"/>
+                        <constraint firstItem="Fr1-2Z-dxU" firstAttribute="leading" secondItem="ReK-Qd-il0" secondAttribute="leading" constant="8" id="XL7-1V-SCU"/>
+                        <constraint firstItem="VwC-9p-Vo5" firstAttribute="top" secondItem="ReK-Qd-il0" secondAttribute="top" constant="45" id="XdP-YC-syc"/>
+                        <constraint firstItem="0c6-Nj-0dp" firstAttribute="top" secondItem="dFu-5O-5mO" secondAttribute="bottom" constant="29" id="Zr8-SQ-Xws"/>
+                        <constraint firstItem="VwC-9p-Vo5" firstAttribute="leading" secondItem="ReK-Qd-il0" secondAttribute="leading" constant="8" id="b0t-9O-5zm"/>
+                        <constraint firstAttribute="trailing" secondItem="dFu-5O-5mO" secondAttribute="trailing" constant="8" id="coS-eO-J14"/>
+                        <constraint firstItem="0c6-Nj-0dp" firstAttribute="leading" secondItem="ReK-Qd-il0" secondAttribute="leading" constant="8" id="hER-48-EKi"/>
+                        <constraint firstItem="0c6-Nj-0dp" firstAttribute="top" secondItem="ReK-Qd-il0" secondAttribute="top" constant="147" id="jzw-xO-Ld3"/>
+                        <constraint firstItem="dFu-5O-5mO" firstAttribute="top" secondItem="VwC-9p-Vo5" secondAttribute="bottom" constant="8" symbolic="YES" id="ofI-WQ-nhS"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ReK-Qd-il0" secondAttribute="bottom" id="Iib-gk-a0a"/>
+                <constraint firstItem="ReK-Qd-il0" firstAttribute="leading" secondItem="COZ-hE-Gir" secondAttribute="leading" id="NUw-13-aua"/>
+                <constraint firstItem="ReK-Qd-il0" firstAttribute="top" secondItem="COZ-hE-Gir" secondAttribute="top" id="aK9-rn-2U5"/>
+                <constraint firstAttribute="trailing" secondItem="ReK-Qd-il0" secondAttribute="trailing" id="pOb-Xk-pE5"/>
+            </constraints>
+            <point key="canvasLocation" x="776" y="209"/>
+        </view>
+    </objects>
+</document>
